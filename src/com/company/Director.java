@@ -14,8 +14,4 @@ public class Director {
         return 0;
     }
 
-    public int indexOf(String dir) {
-        return 0;
-    }
-
 }

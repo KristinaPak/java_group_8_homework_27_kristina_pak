@@ -1,11 +1,12 @@
-[{
-  "fullName": "Michael Sheen",
-  "role": "Aziraphale"
-},
-{
-"fullName": "David Tennant",
-"role": "Crowley"
-},
+[
+  {
+    "fullName": "Michael Sheen",
+    "role": "Aziraphale"
+  },
+  {
+    "fullName": "David Tennant",
+    "role": "Crowley"
+  },
   {
     "fullName": "Orlando Bloom",
     "role": "Detective"
@@ -106,4 +107,4 @@
     "fullName": "Una Stubbs",
     "role": "Mrs. Hudson"
   }
-  ]
+]

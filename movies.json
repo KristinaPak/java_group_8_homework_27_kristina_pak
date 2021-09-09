@@ -1,93 +1,93 @@
- [
-    {
-      "name": "Good omens",
-      "year": 2019,
-      "description": "TV Series",
-      "director": {
-        "fullName": "Douglas Mackinnon"
-      },
-      "cast": []
+[
+  {
+    "name": "Good omens",
+    "year": 2019,
+    "description": "TV Series",
+    "director": {
+      "fullName": "Douglas Mackinnon"
     },
-    {
-      "name": "Carnival Row",
-      "year": 2019,
-      "description": "TV Series",
-      "director": {
-        "fullName": "Some Director"
-      },
-      "cast": [
-      ]
+    "cast": []
+  },
+  {
+    "name": "Carnival Row",
+    "year": 2019,
+    "description": "TV Series",
+    "director": {
+      "fullName": "Some Director"
     },
-    {
-      "name": "Harry Potter",
-      "year": 2005,
-      "description": "Movie",
-      "director": {
-        "fullName": "Happy Guy"
-      },
-      "cast": [
-      ]
+    "cast": [
+    ]
+  },
+  {
+    "name": "Harry Potter",
+    "year": 2005,
+    "description": "Movie",
+    "director": {
+      "fullName": "Happy Guy"
     },
-    {
-      "name": "Hobbit: An Unexpected Journey",
-      "year": 2012,
-      "description": "Movie",
-      "director": {
-        "fullName": "Peter Jackson"
-      },
-      "cast": [
-      ]
+    "cast": [
+    ]
+  },
+  {
+    "name": "Hobbit: An Unexpected Journey",
+    "year": 2012,
+    "description": "Movie",
+    "director": {
+      "fullName": "Peter Jackson"
     },
-    {
-      "name": "The Hobbit: The Desolation of Smaug",
-      "year": 2013,
-      "description": "Movie",
-      "director": {
-        "fullName": "Peter Jackson"
-      },
-      "cast": [
-      ]
+    "cast": [
+    ]
+  },
+  {
+    "name": "The Hobbit: The Desolation of Smaug",
+    "year": 2013,
+    "description": "Movie",
+    "director": {
+      "fullName": "Peter Jackson"
     },
-    {
-      "name": "The Hobbit: The Battle of the Five Armies",
-      "year": 2014,
-      "description": "Movie",
-      "director": {
-        "fullName": "Peter Jackson"
-      },
-      "cast": [
-      ]
+    "cast": [
+    ]
+  },
+  {
+    "name": "The Hobbit: The Battle of the Five Armies",
+    "year": 2014,
+    "description": "Movie",
+    "director": {
+      "fullName": "Peter Jackson"
     },
-    {
-      "name": "Avengers: Endgame",
-      "year": 2019,
-      "description": "Movie",
-      "director": {
-        "fullName": "Anthony Russo"
-      },
-      "cast": [
-      ]
+    "cast": [
+    ]
+  },
+  {
+    "name": "Avengers: Endgame",
+    "year": 2019,
+    "description": "Movie",
+    "director": {
+      "fullName": "Anthony Russo"
     },
-    {
-      "name": "Sherlock: Season 1",
-      "year": 2010,
-      "description": "TV Series",
-      "director": {
-        "fullName": "Paul McGuigan"
+    "cast": [
+    ]
+  },
+  {
+    "name": "Sherlock: Season 1",
+    "year": 2010,
+    "description": "TV Series",
+    "director": {
+      "fullName": "Paul McGuigan"
+    },
+    "cast": [
+      {
+        "fullName": "Benedict Cumberbatch",
+        "role": " Sherlock Holmes"
       },
-      "cast": [
-        {
-          "fullName": "Benedict Cumberbatch",
-          "role": " Sherlock Holmes"
-        },
-        {
-          "fullName": "Martin Freeman",
-          "role": "Dr. Watson"
-        },
-        {
-          "fullName": "Una Stubbs",
-          "role": "Mrs. Hudson"
-        }
-      ]
-    }
-  ]
+      {
+        "fullName": "Martin Freeman",
+        "role": "Dr. Watson"
+      },
+      {
+        "fullName": "Una Stubbs",
+        "role": "Mrs. Hudson"
+      }
+    ]
+  }
+]

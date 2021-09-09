@@ -15,36 +15,16 @@ public class Movie {
         this.casts = casts;
     }
 
-    public Cast[] getCasts() {
-        return casts;
-    }
-
-    public void setCasts(Cast[] casts) {
-        this.casts = casts;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public Integer getYear() {
         return year;
     }
 
-    public void setYear(Integer year) {
-        this.year = year;
-    }
-
     public String getDescription() {
         return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public Director getDirector() {
@@ -55,13 +35,4 @@ public class Movie {
         return director.getName();
     }
 
-
-    public void setDirector(Director director) {
-        this.director = director;
     }
-
-    public Cast[] getCast() {
-        return casts;
-
-    }
-}

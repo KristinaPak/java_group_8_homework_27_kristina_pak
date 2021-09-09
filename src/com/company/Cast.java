@@ -1,6 +1,6 @@
 package com.company;
 
-public class Cast{
+public class Cast {
     private String fullName;
     private String role;
 
@@ -13,15 +13,7 @@ public class Cast{
         return fullName;
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
-
     public String getRole() {
         return role;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
     }
 }

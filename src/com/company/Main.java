@@ -13,7 +13,7 @@ public class Main {
         List<Movie> movies = JsonReader.getMovies();
         for (Movie m : movies) {
             String frm = "|%-42s|%-6s|%-10s|%-20s|";
-            System.out.println(String.format(frm,m.getName() ,m.getYear() , m.getDescription() , m.getDirectorName()));
+            System.out.println(String.format(frm, m.getName(), m.getYear(), m.getDescription(), m.getDirectorName()));
         }
         System.out.println();
         System.out.print("Введите название фильма(возможно частичное совпадение): ");
@@ -33,7 +33,7 @@ public class Main {
         });
         for (Movie m : movies) {
             String fm = "%-20s|%-10s|%-42s|";
-            System.out.println(String.format(fm," ", m.getYear(), m.getName()));
+            System.out.println(String.format(fm, " ", m.getYear(), m.getName()));
 
         }
         System.out.println();
@@ -46,7 +46,7 @@ public class Main {
         });
         for (Movie m : movies) {
             String fm = "%-20s|%-10s|%-42s|";
-            System.out.println(String.format(fm," ", m.getYear(), m.getName()));
+            System.out.println(String.format(fm, " ", m.getYear(), m.getName()));
         }
         System.out.println();
         System.out.println("-----------------------------Сортировка по возрастанию (название)-----------------------------");
@@ -59,7 +59,7 @@ public class Main {
         for (Movie m : movies) {
 
             String fm = "%-20s|%-42s|";
-            System.out.println(String.format(fm," ",m.getName()));
+            System.out.println(String.format(fm, " ", m.getName()));
         }
         System.out.println();
         System.out.println("-----------------------------Сортировка по убыванию (название)-----------------------------");
@@ -71,7 +71,7 @@ public class Main {
         });
         for (Movie m : movies) {
             String fm = "%-20s|%-42s|";
-            System.out.println(String.format(fm," ", m.getName()));
+            System.out.println(String.format(fm, " ", m.getName()));
         }
         System.out.println();
         System.out.println("-----------------------------Сортировка по возрастанию (имена режиссеров)-----------------------------");
@@ -83,7 +83,7 @@ public class Main {
         });
         for (Movie m : movies) {
             String fm = "%-20s|%-20s|%-42s|";
-            System.out.println(String.format(fm," ",m.getDirector().getName(), m.getName()));
+            System.out.println(String.format(fm, " ", m.getDirector().getName(), m.getName()));
         }
         System.out.println();
         System.out.println("-----------------------------Сортировка по убыванию (имена режиссеров)-----------------------------");
@@ -95,7 +95,7 @@ public class Main {
         });
         for (Movie m : movies) {
             String fm = "%-20s|%-20s|%-42s|";
-            System.out.println(String.format(fm," ",m.getDirector().getName(), m.getName()));
+            System.out.println(String.format(fm, " ", m.getDirector().getName(), m.getName()));
         }
 
 
@@ -112,10 +112,10 @@ public class Main {
         }
         System.out.print("Введите имя актера: ");
         String name = sc.nextLine();
-            for (Cast cast : casts) {
-                if (cast.getFullName().indexOf(name) != -1) {
-                    System.out.println("Роль: " + cast.getRole());
-                }
+        for (Cast cast : casts) {
+            if (cast.getFullName().indexOf(name) != -1) {
+                System.out.println("Роль: " + cast.getRole());
+            }
         }
         System.out.println("--------Режиссеры--------- ");
         for (Movie m : movies) {
@@ -126,7 +126,7 @@ public class Main {
         String dir = sc.nextLine();
         for (Movie m : movies) {
             if (m.getDirectorName().indexOf(dir) != -1) {
-                System.out.println("Фильм снятый: " +  m.getName());
+                System.out.println("Фильм снятый: " + m.getName());
             }
         }
         System.out.println("--------Года--------");
@@ -158,7 +158,7 @@ public class Main {
         });
         for (Cast с : casts) {
             String f = "|%-20s|%-20s|";
-            System.out.println(String.format(f,с.getFullName() , с.getRole()));
+            System.out.println(String.format(f, с.getFullName(), с.getRole()));
         }
         System.out.println();
     }

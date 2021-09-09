@@ -51,7 +51,7 @@ public class Movie {
         return director;
     }
 
-    public String  getDirectorName() {
+    public String getDirectorName() {
         return director.getName();
     }
 
